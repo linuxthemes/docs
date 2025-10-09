@@ -6,7 +6,7 @@ import catppuccin from "@catppuccin/starlight";
 // https://astro.build/config
 export default defineConfig({
 	site:"https://sudo-adduser-jordan.github.io/",
-    base:"/portfolio/",
+    base:"/docs/",
 	integrations: [
 		starlight({
 			title: 'My Docs',
