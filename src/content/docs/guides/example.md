@@ -1,11 +1,29 @@
 ---
-title: Example Guide
-description: A guide in my new Starlight docs site.
+title: Install Themes
+description: Install themes on your system.
 ---
 
-Guides lead a user through a specific task they want to accomplish, often with a sequence of steps.
-Writing a good guide requires thinking about what your users are trying to do.
+Installing themes is easy. 
+```sh
+echo "
+alias themes-install    ="git init $HOME; git remote add origin https://github.com/linuxthemes/base; git pull;"
+alias themes-update     ="git pull"
+alias themes-save       ="git update"
+alias themes-switch     ="git checkout "
+alias themes-create     ="git -b checkout "
+alias themes-remote     ="git remote set-url "
+" >> ./bashrc
+```
 
-## Further reading
+```sh
+themes-install
+```
 
-- Read [about how-to guides](https://diataxis.fr/how-to-guides/) in the Diátaxis framework
+Or run the following command
+```sh
+git init $HOME; git remote add origin https://github.com/linuxthemes/base; git pull
+```
+
+## Contribute
+
+- Contribute to [Themes](https://diataxis.fr/how-to-guides/) !
