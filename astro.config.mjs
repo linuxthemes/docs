@@ -5,8 +5,7 @@ import catppuccin from "@catppuccin/starlight";
 
 // https://astro.build/config
 export default defineConfig({
-	site:"https://linuxthemes.github.io/",
-    base:"/docs/",
+	site:"https://docs.linuxthemes.org/",
 	integrations: [
 		starlight({
 			title: 'My Docs',
