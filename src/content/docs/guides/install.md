@@ -24,6 +24,8 @@ Or run the following command
 git init $HOME; git remote add origin https://github.com/linuxthemes/base; git pull
 ```
 
+
 ## Contribute
 
-- Contribute to [Themes](https://diataxis.fr/how-to-guides/) !
+- Contribute to the [Docs](https://github.com/linuxthemes/base) 
+- Contribute to the [Base Themes](https://github.com/linuxthemes/docs) 

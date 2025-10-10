@@ -99,4 +99,5 @@ ksystemdgenie
 
 ## Contribute
 
-- Contribute to [Themes](https://diataxis.fr/how-to-guides/) !
+- Contribute to the [Docs](https://github.com/linuxthemes/base) 
+- Contribute to the [Base Themes](https://github.com/linuxthemes/docs) 
