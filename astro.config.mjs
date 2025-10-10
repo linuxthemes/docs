@@ -7,8 +7,11 @@ export default defineConfig({
 	site:"https://docs.linuxthemes.org/",
 	integrations: [
 		starlight({
-			title: 'My Docs',
-			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight' }],
+			title: 'Themes',
+			social: [
+				{ icon: 'codeberg', label: 'Codeberg', href: 'https://codeberg.org/withastro/starlight' },
+				{ icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight' },
+			],
 			sidebar: [
 				{
 					label: 'Guides',
