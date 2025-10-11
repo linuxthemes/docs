@@ -3,9 +3,16 @@ title: Configure Themes
 description: Configure themes on your system.
 ---
 
-Root configuration file.
+Linux themes creates a git repository in your home directory. 
+All files are ignored by default on the `main` and `master` branches.
+Only explicity selected files are tracked.
+Themes are branchs of the `base` repository and state can easily and quickly be `checkout` to `themes-switch` or `themes-create` new themes.
+Any changes you make to to your system, or other programs do, are tracked and can easily be reviewed to accept or regect changes.
+To back up your theme in a personal repository, only the url needs to be changes and can be accomplished by using `themes-remote`, `git remote url-set origin `, or manually editiing the `.git/config` file.  
+
+
+Base `.gitignore`
 ```sh
-# base 
 *
 !.gitignore
 
@@ -39,22 +46,11 @@ Root configuration file.
 !.config/Code/User/settings.json
 !.config/Code/User/keybindings.json
 
-!.config/Code - OSS
-!.config/Code - OSS/User
-!.config/Code - OSS/User/settings.json
-!.config/Code - OSS/User/keybindings.json
-
-!.config/Thunar
-!.config/Thunar/*
-
 !.config/gtk-3.0
 !.config/gtk-3.0/*
 !.config/gtk-4.0
 !.config/gtk-4.0/*
 
-
-
-!.config/Trolltech.conf
 !.config/konsolerc
 !.config/ksplashrc
 !.config/kdeglobals
@@ -66,7 +62,7 @@ Root configuration file.
 
 ```
 
-Base file tree
+Base `tree`
 
 ```sh
 user1@computer1 ~$ tree -a
@@ -82,18 +78,25 @@ user1@computer1 ~$ tree -a
 6 directories, 3 files
 ```
 
-Base programs list
+Base `programs` list
 ```sh
 fzf
 eza
 rofi
+vim
+nvim
 micro
 vscode
 ghostty
-google-chrome
+firefox
 github-desktop
 ksystemlog
 ksystemdgenie
+
+kde
+# gnome
+# xfce4
+# hyprland
 ```
 
 

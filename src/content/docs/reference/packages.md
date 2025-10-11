@@ -7,17 +7,18 @@ description: Base program list
 fzf
 eza
 rofi
+vim
+nvim
 micro
 vscode
 ghostty
-google-chrome
+firefox
 github-desktop
 ksystemlog
 ksystemdgenie
+
+kde
 ```
-
-
-
 
 ## Contribute
 

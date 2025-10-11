@@ -8,7 +8,6 @@ themes base
 echo "
 alias themes-install    ="git init $HOME; git remote add origin https://github.com/linuxthemes/base; git pull;"
 alias themes-update     ="git pull"
-alias themes-save       ="git update"
 alias themes-switch     ="git checkout "
 alias themes-create     ="git -b checkout "
 alias themes-remote     ="git remote set-url "
@@ -98,6 +97,9 @@ xdg portals
 ```sh
 alias testportal="/usr/libexec/xdg-desktop-portal -vr"
 alias testportal-gtk="/usr/libexec/xdg-desktop-portal-gtk -vr"
+alias testportal-gnome="/usr/libexec/xdg-desktop-portal-gnome -vr"
+alias testportal-kde="/usr/libexec/xdg-desktop-portal-kde -vr"
+alias testportal-xapp="/usr/libexec/xdg-desktop-portal-xapp -vr"
 ```
 
 fzf
