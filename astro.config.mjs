@@ -16,14 +16,23 @@ export default defineConfig({
 				{
 					label: 'Guides',
 					items: [
-						// Each item here is one entry in the navigation menu.
 						{ label: 'Install', slug: 'guides/install' },
-						{ label: 'Configuratin', slug: 'guides/configuration' },
+						{ label: 'Configuration', slug: 'guides/configuration' },
+						{ label: 'Contributing', slug: 'guides/contributing' },
 					],
 				},
 				{
 					label: 'Reference',
-					autogenerate: { directory: 'reference' },
+					items:[
+						{ label: 'Themes', slug: 'reference/themes' },
+						{ label: 'Packages', slug: 'reference/packages' },
+						{ label: 'Programs', slug: 'reference/programs' },
+						{ label: 'Desktops', slug: 'reference/desktops' },
+						{ label: 'Keymaps', slug: 'reference/keymaps' },
+						{ label: 'Icons', slug: 'reference/icons' },
+						{ label: 'Alias', slug: 'reference/alias' },
+					],
+					// autogenerate: { directory: 'reference' },
 				},
 			],
 			plugins: [         
