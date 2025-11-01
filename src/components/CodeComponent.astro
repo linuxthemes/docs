@@ -1,0 +1,9 @@
+---
+import { getFileContents } from "../functions";
+import { Code } from '@astrojs/starlight/components';
+
+const {lang, title} = Astro.props;
+const fileContents  = await getFileContents(title);
+---
+
+<Code code={fileContents} lang={lang} title={title} />

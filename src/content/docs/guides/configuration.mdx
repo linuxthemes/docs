@@ -1,0 +1,20 @@
+---
+title: Configure Themes
+description: Configure themes on your system.
+---
+import Code  from '../../../components/CodeComponent.astro'
+
+Linux themes creates a git repository in your home directory. 
+All files are ignored by default on the `main` and `master` branches.
+Only explicity selected files are tracked.
+Themes are branchs of the `base` repository and state can easily and quickly be `checkout` to `themes-switch` or `themes-create` new themes.
+Any changes you make to to your system, or other programs do, are tracked and can easily be reviewed to accept or regect changes.
+To back up your theme in a personal repository, only the url needs to be changes and can be accomplished by using `themes-remote`, `git remote url-set origin `, or manually editiing the `.git/config` file.  
+
+Base `.gitignore`
+<Code lang="js" title={".gitignore"} />
+
+## Contribute
+
+- Contribute to the [Docs](https://github.com/linuxthemes/base) 
+- Contribute to the [Base Themes](https://github.com/linuxthemes/docs) 

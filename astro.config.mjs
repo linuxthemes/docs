@@ -8,6 +8,7 @@ export default defineConfig({
 	integrations: [
 		starlight({
 			title: 'Themes',
+            favicon: './favicon.ico',
 			social: [
 				{ icon: 'codeberg', label: 'Codeberg', href: 'https://codeberg.org/withastro/starlight' },
 				{ icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight' },
