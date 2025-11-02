@@ -26,12 +26,10 @@ export default defineConfig({
 					label: 'Reference',
 					items:[
 						{ label: 'Themes', slug: 'reference/themes' },
-						{ label: 'Packages', slug: 'reference/packages' },
 						{ label: 'Programs', slug: 'reference/programs' },
 						{ label: 'Desktops', slug: 'reference/desktops' },
 						{ label: 'Keymaps', slug: 'reference/keymaps' },
 						{ label: 'Icons', slug: 'reference/icons' },
-						{ label: 'Alias', slug: 'reference/alias' },
 					],
 					// autogenerate: { directory: 'reference' },
 				},

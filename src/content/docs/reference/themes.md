@@ -3,23 +3,13 @@ title: Themes
 description: Base themes list
 ---
 
-
-
 ```
 base
-tokyo-night
-catppuccin
-matte-black
 nord
-
-# jade
-# gruvbox
-# everforest
-# ristretto
-# rose-pine
+tokoyo
+dracula
+catppuccin
 ```
-
-
 
 ## Contribute
 
