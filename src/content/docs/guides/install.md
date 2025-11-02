@@ -10,7 +10,9 @@ source <(curl https://linuxthemes.org/install)
 
 This will create a git repository in your user home directory and sync the following file tree from the themes `base` repository.
 
-Themes will sync and commit your current state to either `:main` or `:master` branches, whichever is listed in your global git configuration. Your current configuration state will be saved on this branch. You can revert back to your previous state at any time. The `Base` theme contains the configurations for all of the `Themes` branches. Each branch is a theme and `Base` contains each theme. This branch will constantly change in state as the `Themes` Organization administrator uses it. For now it is considered a development branch, while other `Themes` will remain static and branded. 
+Themes will sync and commit your current state to either `:main` or `:master` branches, whichever is listed in your global git configuration. Your current configuration state will be saved on this branch. You can revert back to your previous state at any time. 
+
+The `Base` theme contains the configurations for all of the `Themes` branches. Each branch is a theme and `Base` contains each theme. This branch will constantly change in state as the `Themes` Organization administrator uses it. For now it is considered a development branch, while other `Themes` will remain static and branded. 
 
 No programs are installed, only configurations for the programs. 
 Any tracked configurations will be applied when the program are installed and used.
